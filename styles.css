@@ -141,7 +141,7 @@ h3 {
   height: 100%;
   padding: 15px;
   border: 2px solid #3C1EAE;
-  border-radius: 10px;
+  border-radius: 12px;
   box-sizing: border-box;
   background-color: transparent;
   backdrop-filter: blur(2px);
@@ -181,7 +181,7 @@ h3 {
   width: 125%;
   height: 125%;
   border: 2px solid #3C1EAE;
-  border-radius: 10px;
+  border-radius: 12px;
   box-sizing: border-box;
   background-color: transparent;
   transition: box-shadow .2s;
@@ -197,7 +197,7 @@ h3 {
   height: 100%;
   background-color: transparent;
   backdrop-filter: blur(2px);
-  border-radius: 10px;
+  border-radius: 12px;
 }
 
 /*Blurred Image*/
@@ -207,6 +207,7 @@ h3 {
   position: relative;
   filter: blur(3px) brightness(85%);
   object-fit: cover;
+  border-radius: 12px;
 }
 
 /*Text on top of Image*/
