@@ -275,6 +275,7 @@ h4 {
   text-shadow: 1px 1px 10px #ffffff
 }
 
+
 /*Error Page*/
 
 .error_page {
@@ -337,20 +338,7 @@ h4 {
 
 .bg-animation {
   position: fixed;
-  inset: 0;
-  z-index: 0;
-  overflow: hidden;
-  pointer-events: none;
-}
-
-.bg-animation > div {
-  position: absolute;
-}
-
-/* Keep the existing page content above the particles */
-body > *:not(.bg-animation) {
-  position: relative;
-  z-index: 1;
+  z-index: -1;
 }
 
 #stars {
