@@ -87,7 +87,7 @@ header a:hover {
 /*Profile Box*/
 .profilebox {
   background-color: #522ce875;
-  backdrop-filter: blur(1px);
+  backdrop-filter: blur(2px);
   border: 1px solid #3C1EAE;
   padding: 20px;
   border-radius: 24px;
@@ -103,7 +103,7 @@ header a:hover {
 /*Description Box*/
 .descbox {
   background-color: #522ce875;
-  backdrop-filter: blur(1px);
+  backdrop-filter: blur(2px);
   border: 1px solid #3C1EAE;
   padding: 12px;
   border-radius: 16px;
